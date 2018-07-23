@@ -1,0 +1,24 @@
+/* 
+  ShareRECCloud.strings
+  ShareRECCloud
+
+  Created by liyc on 2017/7/18.
+  Copyright © 2017年 MOB. All rights reserved.
+*/
+
+"BUTTON_BACK" = "Back";
+"BUTTON_UPLOAD_VIDEO" = "Upload Video";
+"TEXTVIEW_DEFAULT_TITLE" = "Share Video";
+"BUTTON_UPLOAD_SUC" = "My Video";
+"BUTTON_UPLOAD_FAI" = "Failed, click Retry";
+"TEXT_TIPS_TITLE" = "Tips";
+"TEXT_VIDEO_TITLE_INVALID" = "Please input the video title";
+"BUTTON_KNOWN" = "I Known";
+"BUTTON_SHARE_VIDEO" = "Share Video";
+"TEXT_SHARE_WITHOUT_UPLOAD" = "The video has yet to upload, whether upload to share?";
+"BUTTON_UPLOADING" = "Uploading...";
+"BUTTON_OK" = "OK";
+"BUTTON_CANCEL" = "Cancel";
+"TEXT_SHARE_TITLE" = "To share a video";
+"TEXT_SHARE_CANCEL" = "Share cancel!";
+"TEXT_SHARE_SUC" = "Share success!";

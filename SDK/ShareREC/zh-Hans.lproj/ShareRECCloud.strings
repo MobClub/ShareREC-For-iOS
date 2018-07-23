@@ -1,0 +1,24 @@
+/* 
+  ShareRECCloud.strings
+  ShareRECCloud
+
+  Created by liyc on 2017/7/18.
+  Copyright © 2017年 MOB. All rights reserved.
+*/
+
+"BUTTON_BACK" = "返回";
+"BUTTON_UPLOAD_VIDEO" = "上传视频";
+"TEXTVIEW_DEFAULT_TITLE" = "分享一段视频";
+"BUTTON_UPLOAD_SUC" = "进入我的视频";
+"BUTTON_UPLOAD_FAI" = "上传失败，点击重试";
+"TEXT_TIPS_TITLE" = "提示";
+"TEXT_VIDEO_TITLE_INVALID" = "请输入视频标题";
+"BUTTON_KNOWN" = "知道了";
+"BUTTON_SHARE_VIDEO" = "分享视频";
+"TEXT_SHARE_WITHOUT_UPLOAD" = "该视频尚未上传，是否上传后分享?";
+"BUTTON_UPLOADING" = "正在上传...";
+"BUTTON_OK" = "确定";
+"BUTTON_CANCEL" = "取消";
+"TEXT_SHARE_TITLE" = "分享一个视频";
+"TEXT_SHARE_CANCEL" = "分享取消";
+"TEXT_SHARE_SUC" = "分享成功!";
