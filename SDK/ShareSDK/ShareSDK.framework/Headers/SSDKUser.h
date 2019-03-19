@@ -6,9 +6,6 @@
 //  Copyright (c) 2015年 掌淘科技. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "SSDKTypeDefine.h"
-#import <ShareSDK/IMOBFSocialUser.h>
 #import <MOBFoundation/MOBFDataModel.h>
 
 @class SSDKCredential;
@@ -35,17 +32,17 @@ typedef NS_ENUM(NSUInteger, SSDKGender)
 /**
  *  用户信息
  */
-@interface SSDKUser : MOBFDataModel <IMOBFSocialUser>
+@interface SSDKUser : MOBFDataModel
 
 /**
  *  平台类型
  */
-@property (nonatomic) NSInteger platformType;
+@property (nonatomic) SSDKPlatformType platformType;
 
 /**
  *  授权凭证， 为nil则表示尚未授权
  */
-@property (nonatomic, retain) SSDKCredential *credential;
+@property (nonatomic, strong) SSDKCredential *credential;
 
 /**
  *  用户标识
@@ -63,7 +60,7 @@ typedef NS_ENUM(NSUInteger, SSDKGender)
 @property (nonatomic, copy) NSString *icon;
 
 /**
- *  性别
+ *  性别 男-0 女-1 未知-2
  */
 @property (nonatomic) NSInteger gender;
 
@@ -128,8 +125,13 @@ typedef NS_ENUM(NSUInteger, SSDKGender)
 @property (nonatomic, retain) NSArray *works;
 
 /**
+ *  标签
+ */
+@property (strong, nonatomic) NSArray *tags;
+
+/**
  *  原始数据
  */
-@property (nonatomic, retain) NSDictionary *rawData;
+@property (strong, nonatomic) NSDictionary *rawData;
 
 @end

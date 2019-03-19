@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2D42EC22408B5E00C46F1E /* ShareRECCloud.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42C222408B5E00C46F1E /* ShareRECCloud.strings */; };
+		0B2D42ED22408B5E00C46F1E /* ShareREC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42C422408B5E00C46F1E /* ShareREC.strings */; };
+		0B2D42EE22408B5E00C46F1E /* ShareRECSocial.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42C622408B5E00C46F1E /* ShareRECSocial.strings */; };
+		0B2D42EF22408B5E00C46F1E /* ShareRECEdit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42C822408B5E00C46F1E /* ShareRECEdit.strings */; };
+		0B2D42F022408B5E00C46F1E /* ShareREC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42CA22408B5E00C46F1E /* ShareREC.framework */; };
+		0B2D42F122408B5E00C46F1E /* ShareRECSocial.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42CF22408B5E00C46F1E /* ShareRECSocial.bundle */; };
+		0B2D42F222408B5E00C46F1E /* ShareREC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42D022408B5E00C46F1E /* ShareREC.bundle */; };
+		0B2D42F322408B5E00C46F1E /* ShareRECEdit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42D122408B5E00C46F1E /* ShareRECEdit.bundle */; };
+		0B2D42F422408B5E00C46F1E /* ShareRECCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42D222408B5E00C46F1E /* ShareRECCloud.framework */; };
+		0B2D42F522408B5E00C46F1E /* ShareRECSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42D322408B5E00C46F1E /* ShareRECSocial.framework */; };
+		0B2D42F622408B5E00C46F1E /* ShareRECCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42D422408B5E00C46F1E /* ShareRECCloud.bundle */; };
+		0B2D42F722408B5E00C46F1E /* ShareRECEdit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42D522408B5E00C46F1E /* ShareRECEdit.framework */; };
+		0B2D42F822408B5E00C46F1E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42DC22408B5E00C46F1E /* README.txt */; };
+		0B2D42F922408B5E00C46F1E /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42DE22408B5E00C46F1E /* libWeChatSDK.a */; };
+		0B2D42FA22408B5E00C46F1E /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42E022408B5E00C46F1E /* ShareSDKConnector.framework */; };
+		0B2D42FB22408B5E00C46F1E /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42E122408B5E00C46F1E /* ShareSDK.bundle */; };
+		0B2D42FC22408B5E00C46F1E /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D42E322408B5E00C46F1E /* ShareSDKUI.bundle */; };
+		0B2D42FD22408B5E00C46F1E /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42E422408B5E00C46F1E /* ShareSDKExtension.framework */; };
+		0B2D42FE22408B5E00C46F1E /* ShareSDKUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42E522408B5E00C46F1E /* ShareSDKUI.framework */; };
+		0B2D42FF22408B5E00C46F1E /* WechatConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42E722408B5E00C46F1E /* WechatConnector.framework */; };
+		0B2D430022408B5E00C46F1E /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42E822408B5E00C46F1E /* ShareSDK.framework */; };
+		0B2D430122408B5E00C46F1E /* MOBFoundationEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42EA22408B5E00C46F1E /* MOBFoundationEx.framework */; };
+		0B2D430222408B5E00C46F1E /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D42EB22408B5E00C46F1E /* MOBFoundation.framework */; };
 		4128B24D1A49399200BBC81A /* _.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4128B24C1A49399200BBC81A /* _.mp3 */; };
 		41A506FE1A427A77002F28E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A506FD1A427A77002F28E5 /* Foundation.framework */; };
 		41A507001A427A77002F28E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A506FF1A427A77002F28E5 /* CoreGraphics.framework */; };
@@ -22,37 +45,44 @@
 		41A507211A427A77002F28E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A507201A427A77002F28E5 /* Images.xcassets */; };
 		41A5074B1A427E52002F28E5 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A5074A1A427E52002F28E5 /* libicucore.dylib */; };
 		41A5074D1A428139002F28E5 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A5074C1A428139002F28E5 /* libz.1.2.5.dylib */; };
-		41A5074F1A428171002F28E5 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A5074E1A428171002F28E5 /* libstdc++.dylib */; };
-		6B03512E1F32CA1C006B5913 /* ShareRECSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B03512D1F32CA1C006B5913 /* ShareRECSocial.framework */; };
 		6B0B05661C3E49C000317981 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0B05651C3E49C000317981 /* libsqlite3.tbd */; };
-		6B3F0D0D1F4DAF66007FA051 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F0CC11F4DAF66007FA051 /* ShareSDK.framework */; };
-		6B3F0D101F4DAF66007FA051 /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F0CC61F4DAF66007FA051 /* ShareSDKExtension.framework */; };
-		6B3F0D111F4DAF66007FA051 /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F0CC71F4DAF66007FA051 /* ShareSDKUI.bundle */; };
-		6B3F0D121F4DAF66007FA051 /* ShareSDKUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F0CC81F4DAF66007FA051 /* ShareSDKUI.framework */; };
-		6B3F0D261F4DAF66007FA051 /* WechatConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F0CDD1F4DAF66007FA051 /* WechatConnector.framework */; };
-		6B3F0D391F4DAF66007FA051 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F0D011F4DAF66007FA051 /* libWeChatSDK.a */; };
-		6B3F0D3A1F4DAF66007FA051 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F0D021F4DAF66007FA051 /* README.txt */; };
-		6B3F0D3C1F4DAF66007FA051 /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F0D0B1F4DAF66007FA051 /* ShareSDK.bundle */; };
-		6B3F0D3D1F4DAF66007FA051 /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F0D0C1F4DAF66007FA051 /* ShareSDKConnector.framework */; };
-		6B4AE7451F2B47C500FA088D /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4AE72D1F2B47C500FA088D /* MOBFoundation.framework */; };
-		6B4AE7461F2B47C500FA088D /* MOBFoundationEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4AE72E1F2B47C500FA088D /* MOBFoundationEx.framework */; };
-		6B4AE7471F2B47C500FA088D /* ShareREC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AE7301F2B47C500FA088D /* ShareREC.strings */; };
-		6B4AE7481F2B47C500FA088D /* ShareRECCloud.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AE7321F2B47C500FA088D /* ShareRECCloud.strings */; };
-		6B4AE7491F2B47C500FA088D /* ShareRECEdit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AE7341F2B47C500FA088D /* ShareRECEdit.strings */; };
-		6B4AE74A1F2B47C500FA088D /* ShareRECSocial.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AE7361F2B47C500FA088D /* ShareRECSocial.strings */; };
-		6B4AE74B1F2B47C500FA088D /* ShareREC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AE7381F2B47C500FA088D /* ShareREC.bundle */; };
-		6B4AE74C1F2B47C500FA088D /* ShareREC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4AE7391F2B47C500FA088D /* ShareREC.framework */; };
-		6B4AE74D1F2B47C500FA088D /* ShareRECCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AE73A1F2B47C500FA088D /* ShareRECCloud.bundle */; };
-		6B4AE74E1F2B47C500FA088D /* ShareRECCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4AE73B1F2B47C500FA088D /* ShareRECCloud.framework */; };
-		6B4AE74F1F2B47C500FA088D /* ShareRECEdit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AE73C1F2B47C500FA088D /* ShareRECEdit.bundle */; };
-		6B4AE7501F2B47C500FA088D /* ShareRECEdit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4AE73D1F2B47C500FA088D /* ShareRECEdit.framework */; };
-		6B4AE7511F2B47C500FA088D /* ShareRECSocial.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AE73E1F2B47C500FA088D /* ShareRECSocial.bundle */; };
-		6B4AE7531F2B47C500FA088D /* ShareREC快速集成文档.docx in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AE7401F2B47C500FA088D /* ShareREC快速集成文档.docx */; };
 		6B886A751ED29D9E00DB686C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B886A741ED29D9E00DB686C /* Launch Screen.storyboard */; };
 		6BFB44C81ED3E8DB009D0E7E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFB44C71ED3E8DB009D0E7E /* JavaScriptCore.framework */; };
+		E218C1C12189E5A70014FD26 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E218C1C02189E5A60014FD26 /* libc++.tbd */; };
+		E28FDC722189E38500D46914 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28FDC712189E38500D46914 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B2D42C322408B5E00C46F1E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareRECCloud.strings"; sourceTree = "<group>"; };
+		0B2D42C522408B5E00C46F1E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareREC.strings"; sourceTree = "<group>"; };
+		0B2D42C722408B5E00C46F1E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareRECSocial.strings"; sourceTree = "<group>"; };
+		0B2D42C922408B5E00C46F1E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareRECEdit.strings"; sourceTree = "<group>"; };
+		0B2D42CA22408B5E00C46F1E /* ShareREC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareREC.framework; sourceTree = "<group>"; };
+		0B2D42CB22408B5E00C46F1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareRECCloud.strings; sourceTree = "<group>"; };
+		0B2D42CC22408B5E00C46F1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareREC.strings; sourceTree = "<group>"; };
+		0B2D42CD22408B5E00C46F1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareRECSocial.strings; sourceTree = "<group>"; };
+		0B2D42CE22408B5E00C46F1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareRECEdit.strings; sourceTree = "<group>"; };
+		0B2D42CF22408B5E00C46F1E /* ShareRECSocial.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareRECSocial.bundle; sourceTree = "<group>"; };
+		0B2D42D022408B5E00C46F1E /* ShareREC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareREC.bundle; sourceTree = "<group>"; };
+		0B2D42D122408B5E00C46F1E /* ShareRECEdit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareRECEdit.bundle; sourceTree = "<group>"; };
+		0B2D42D222408B5E00C46F1E /* ShareRECCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareRECCloud.framework; sourceTree = "<group>"; };
+		0B2D42D322408B5E00C46F1E /* ShareRECSocial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareRECSocial.framework; sourceTree = "<group>"; };
+		0B2D42D422408B5E00C46F1E /* ShareRECCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareRECCloud.bundle; sourceTree = "<group>"; };
+		0B2D42D522408B5E00C46F1E /* ShareRECEdit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareRECEdit.framework; sourceTree = "<group>"; };
+		0B2D42DA22408B5E00C46F1E /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		0B2D42DB22408B5E00C46F1E /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		0B2D42DC22408B5E00C46F1E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		0B2D42DD22408B5E00C46F1E /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		0B2D42DE22408B5E00C46F1E /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		0B2D42E022408B5E00C46F1E /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
+		0B2D42E122408B5E00C46F1E /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
+		0B2D42E322408B5E00C46F1E /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
+		0B2D42E422408B5E00C46F1E /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
+		0B2D42E522408B5E00C46F1E /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKUI.framework; sourceTree = "<group>"; };
+		0B2D42E722408B5E00C46F1E /* WechatConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WechatConnector.framework; sourceTree = "<group>"; };
+		0B2D42E822408B5E00C46F1E /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		0B2D42EA22408B5E00C46F1E /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
+		0B2D42EB22408B5E00C46F1E /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
 		4128B24C1A49399200BBC81A /* _.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = _.mp3; sourceTree = "<group>"; };
 		41A506FA1A427A77002F28E5 /* ShareRECDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareRECDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A506FD1A427A77002F28E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,40 +105,11 @@
 		41A5074A1A427E52002F28E5 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		41A5074C1A428139002F28E5 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		41A5074E1A428171002F28E5 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
-		6B03512D1F32CA1C006B5913 /* ShareRECSocial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareRECSocial.framework; sourceTree = "<group>"; };
 		6B0B05651C3E49C000317981 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		6B3F0CC11F4DAF66007FA051 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
-		6B3F0CC61F4DAF66007FA051 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
-		6B3F0CC71F4DAF66007FA051 /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
-		6B3F0CC81F4DAF66007FA051 /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKUI.framework; sourceTree = "<group>"; };
-		6B3F0CDD1F4DAF66007FA051 /* WechatConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WechatConnector.framework; sourceTree = "<group>"; };
-		6B3F0D011F4DAF66007FA051 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		6B3F0D021F4DAF66007FA051 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		6B3F0D031F4DAF66007FA051 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		6B3F0D041F4DAF66007FA051 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		6B3F0D051F4DAF66007FA051 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		6B3F0D0B1F4DAF66007FA051 /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
-		6B3F0D0C1F4DAF66007FA051 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
-		6B4AE72D1F2B47C500FA088D /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
-		6B4AE72E1F2B47C500FA088D /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
-		6B4AE7311F2B47C500FA088D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareREC.strings; sourceTree = "<group>"; };
-		6B4AE7331F2B47C500FA088D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareRECCloud.strings; sourceTree = "<group>"; };
-		6B4AE7351F2B47C500FA088D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareRECEdit.strings; sourceTree = "<group>"; };
-		6B4AE7371F2B47C500FA088D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareRECSocial.strings; sourceTree = "<group>"; };
-		6B4AE7381F2B47C500FA088D /* ShareREC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareREC.bundle; sourceTree = "<group>"; };
-		6B4AE7391F2B47C500FA088D /* ShareREC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareREC.framework; sourceTree = "<group>"; };
-		6B4AE73A1F2B47C500FA088D /* ShareRECCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareRECCloud.bundle; sourceTree = "<group>"; };
-		6B4AE73B1F2B47C500FA088D /* ShareRECCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareRECCloud.framework; sourceTree = "<group>"; };
-		6B4AE73C1F2B47C500FA088D /* ShareRECEdit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareRECEdit.bundle; sourceTree = "<group>"; };
-		6B4AE73D1F2B47C500FA088D /* ShareRECEdit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareRECEdit.framework; sourceTree = "<group>"; };
-		6B4AE73E1F2B47C500FA088D /* ShareRECSocial.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareRECSocial.bundle; sourceTree = "<group>"; };
-		6B4AE7401F2B47C500FA088D /* ShareREC快速集成文档.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShareREC快速集成文档.docx"; sourceTree = "<group>"; };
-		6B4AE7411F2B47C500FA088D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareREC.strings"; sourceTree = "<group>"; };
-		6B4AE7421F2B47C500FA088D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareRECCloud.strings"; sourceTree = "<group>"; };
-		6B4AE7431F2B47C500FA088D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareRECEdit.strings"; sourceTree = "<group>"; };
-		6B4AE7441F2B47C500FA088D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareRECSocial.strings"; sourceTree = "<group>"; };
 		6B886A741ED29D9E00DB686C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6BFB44C71ED3E8DB009D0E7E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E218C1C02189E5A60014FD26 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E28FDC712189E38500D46914 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,34 +117,141 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2D42FF22408B5E00C46F1E /* WechatConnector.framework in Frameworks */,
+				E218C1C12189E5A70014FD26 /* libc++.tbd in Frameworks */,
+				0B2D42FA22408B5E00C46F1E /* ShareSDKConnector.framework in Frameworks */,
+				E28FDC722189E38500D46914 /* WebKit.framework in Frameworks */,
+				0B2D42F922408B5E00C46F1E /* libWeChatSDK.a in Frameworks */,
 				6BFB44C81ED3E8DB009D0E7E /* JavaScriptCore.framework in Frameworks */,
-				6B3F0D3D1F4DAF66007FA051 /* ShareSDKConnector.framework in Frameworks */,
-				6B4AE74E1F2B47C500FA088D /* ShareRECCloud.framework in Frameworks */,
-				6B3F0D101F4DAF66007FA051 /* ShareSDKExtension.framework in Frameworks */,
-				6B4AE7451F2B47C500FA088D /* MOBFoundation.framework in Frameworks */,
 				6B0B05661C3E49C000317981 /* libsqlite3.tbd in Frameworks */,
-				6B3F0D0D1F4DAF66007FA051 /* ShareSDK.framework in Frameworks */,
-				41A5074F1A428171002F28E5 /* libstdc++.dylib in Frameworks */,
-				6B4AE7501F2B47C500FA088D /* ShareRECEdit.framework in Frameworks */,
-				6B3F0D261F4DAF66007FA051 /* WechatConnector.framework in Frameworks */,
 				41A5074D1A428139002F28E5 /* libz.1.2.5.dylib in Frameworks */,
+				0B2D42F722408B5E00C46F1E /* ShareRECEdit.framework in Frameworks */,
+				0B2D430022408B5E00C46F1E /* ShareSDK.framework in Frameworks */,
 				41A5074B1A427E52002F28E5 /* libicucore.dylib in Frameworks */,
+				0B2D42FE22408B5E00C46F1E /* ShareSDKUI.framework in Frameworks */,
+				0B2D430222408B5E00C46F1E /* MOBFoundation.framework in Frameworks */,
+				0B2D42F522408B5E00C46F1E /* ShareRECSocial.framework in Frameworks */,
 				41A507061A427A77002F28E5 /* OpenGLES.framework in Frameworks */,
+				0B2D42F022408B5E00C46F1E /* ShareREC.framework in Frameworks */,
 				41A507001A427A77002F28E5 /* CoreGraphics.framework in Frameworks */,
-				6B4AE74C1F2B47C500FA088D /* ShareREC.framework in Frameworks */,
 				41A507021A427A77002F28E5 /* UIKit.framework in Frameworks */,
-				6B3F0D121F4DAF66007FA051 /* ShareSDKUI.framework in Frameworks */,
-				6B03512E1F32CA1C006B5913 /* ShareRECSocial.framework in Frameworks */,
+				0B2D42F422408B5E00C46F1E /* ShareRECCloud.framework in Frameworks */,
 				41A507041A427A77002F28E5 /* GLKit.framework in Frameworks */,
+				0B2D430122408B5E00C46F1E /* MOBFoundationEx.framework in Frameworks */,
 				41A506FE1A427A77002F28E5 /* Foundation.framework in Frameworks */,
-				6B3F0D391F4DAF66007FA051 /* libWeChatSDK.a in Frameworks */,
-				6B4AE7461F2B47C500FA088D /* MOBFoundationEx.framework in Frameworks */,
+				0B2D42FD22408B5E00C46F1E /* ShareSDKExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B2D42C022408B5E00C46F1E /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D42C122408B5E00C46F1E /* ShareREC */,
+				0B2D42D622408B5E00C46F1E /* ShareSDK */,
+				0B2D42E922408B5E00C46F1E /* Required */,
+			);
+			name = SDK;
+			path = ../../../SDK;
+			sourceTree = "<group>";
+		};
+		0B2D42C122408B5E00C46F1E /* ShareREC */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D42C222408B5E00C46F1E /* ShareRECCloud.strings */,
+				0B2D42C422408B5E00C46F1E /* ShareREC.strings */,
+				0B2D42C622408B5E00C46F1E /* ShareRECSocial.strings */,
+				0B2D42C822408B5E00C46F1E /* ShareRECEdit.strings */,
+				0B2D42CA22408B5E00C46F1E /* ShareREC.framework */,
+				0B2D42CF22408B5E00C46F1E /* ShareRECSocial.bundle */,
+				0B2D42D022408B5E00C46F1E /* ShareREC.bundle */,
+				0B2D42D122408B5E00C46F1E /* ShareRECEdit.bundle */,
+				0B2D42D222408B5E00C46F1E /* ShareRECCloud.framework */,
+				0B2D42D322408B5E00C46F1E /* ShareRECSocial.framework */,
+				0B2D42D422408B5E00C46F1E /* ShareRECCloud.bundle */,
+				0B2D42D522408B5E00C46F1E /* ShareRECEdit.framework */,
+			);
+			path = ShareREC;
+			sourceTree = "<group>";
+		};
+		0B2D42D622408B5E00C46F1E /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D42D722408B5E00C46F1E /* Support */,
+				0B2D42E822408B5E00C46F1E /* ShareSDK.framework */,
+			);
+			path = ShareSDK;
+			sourceTree = "<group>";
+		};
+		0B2D42D722408B5E00C46F1E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D42D822408B5E00C46F1E /* PlatformSDK */,
+				0B2D42DF22408B5E00C46F1E /* Required */,
+				0B2D42E222408B5E00C46F1E /* Optional */,
+				0B2D42E622408B5E00C46F1E /* PlatformConnector */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		0B2D42D822408B5E00C46F1E /* PlatformSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D42D922408B5E00C46F1E /* WeChatSDK */,
+			);
+			path = PlatformSDK;
+			sourceTree = "<group>";
+		};
+		0B2D42D922408B5E00C46F1E /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D42DA22408B5E00C46F1E /* WXApi.h */,
+				0B2D42DB22408B5E00C46F1E /* WXApiObject.h */,
+				0B2D42DC22408B5E00C46F1E /* README.txt */,
+				0B2D42DD22408B5E00C46F1E /* WechatAuthSDK.h */,
+				0B2D42DE22408B5E00C46F1E /* libWeChatSDK.a */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+		0B2D42DF22408B5E00C46F1E /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D42E022408B5E00C46F1E /* ShareSDKConnector.framework */,
+				0B2D42E122408B5E00C46F1E /* ShareSDK.bundle */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+		0B2D42E222408B5E00C46F1E /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D42E322408B5E00C46F1E /* ShareSDKUI.bundle */,
+				0B2D42E422408B5E00C46F1E /* ShareSDKExtension.framework */,
+				0B2D42E522408B5E00C46F1E /* ShareSDKUI.framework */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		0B2D42E622408B5E00C46F1E /* PlatformConnector */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D42E722408B5E00C46F1E /* WechatConnector.framework */,
+			);
+			path = PlatformConnector;
+			sourceTree = "<group>";
+		};
+		0B2D42E922408B5E00C46F1E /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D42EA22408B5E00C46F1E /* MOBFoundationEx.framework */,
+				0B2D42EB22408B5E00C46F1E /* MOBFoundation.framework */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
 		41A506F11A427A77002F28E5 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +272,8 @@
 		41A506FC1A427A77002F28E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E218C1C02189E5A60014FD26 /* libc++.tbd */,
+				E28FDC712189E38500D46914 /* WebKit.framework */,
 				6BFB44C71ED3E8DB009D0E7E /* JavaScriptCore.framework */,
 				6B0B05651C3E49C000317981 /* libsqlite3.tbd */,
 				41A5074E1A428171002F28E5 /* libstdc++.dylib */,
@@ -182,7 +292,7 @@
 		41A507071A427A77002F28E5 /* ShareRECDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6B4AE72B1F2B47C500FA088D /* SDK */,
+				0B2D42C022408B5E00C46F1E /* SDK */,
 				41A507101A427A77002F28E5 /* AppDelegate.h */,
 				41A507111A427A77002F28E5 /* AppDelegate.m */,
 				41A507191A427A77002F28E5 /* Shader.fsh */,
@@ -206,113 +316,6 @@
 				41A5070F1A427A77002F28E5 /* ShareRECDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6B3F0CC01F4DAF66007FA051 /* ShareSDK */ = {
-			isa = PBXGroup;
-			children = (
-				6B3F0CC11F4DAF66007FA051 /* ShareSDK.framework */,
-				6B3F0CC21F4DAF66007FA051 /* Support */,
-			);
-			path = ShareSDK;
-			sourceTree = "<group>";
-		};
-		6B3F0CC21F4DAF66007FA051 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				6B3F0CC31F4DAF66007FA051 /* Optional */,
-				6B3F0CC91F4DAF66007FA051 /* PlatformConnector */,
-				6B3F0CE11F4DAF66007FA051 /* PlatformSDK */,
-				6B3F0D0A1F4DAF66007FA051 /* Required */,
-			);
-			path = Support;
-			sourceTree = "<group>";
-		};
-		6B3F0CC31F4DAF66007FA051 /* Optional */ = {
-			isa = PBXGroup;
-			children = (
-				6B3F0CC61F4DAF66007FA051 /* ShareSDKExtension.framework */,
-				6B3F0CC71F4DAF66007FA051 /* ShareSDKUI.bundle */,
-				6B3F0CC81F4DAF66007FA051 /* ShareSDKUI.framework */,
-			);
-			path = Optional;
-			sourceTree = "<group>";
-		};
-		6B3F0CC91F4DAF66007FA051 /* PlatformConnector */ = {
-			isa = PBXGroup;
-			children = (
-				6B3F0CDD1F4DAF66007FA051 /* WechatConnector.framework */,
-			);
-			path = PlatformConnector;
-			sourceTree = "<group>";
-		};
-		6B3F0CE11F4DAF66007FA051 /* PlatformSDK */ = {
-			isa = PBXGroup;
-			children = (
-				6B3F0D001F4DAF66007FA051 /* WeChatSDK */,
-			);
-			path = PlatformSDK;
-			sourceTree = "<group>";
-		};
-		6B3F0D001F4DAF66007FA051 /* WeChatSDK */ = {
-			isa = PBXGroup;
-			children = (
-				6B3F0D011F4DAF66007FA051 /* libWeChatSDK.a */,
-				6B3F0D021F4DAF66007FA051 /* README.txt */,
-				6B3F0D031F4DAF66007FA051 /* WechatAuthSDK.h */,
-				6B3F0D041F4DAF66007FA051 /* WXApi.h */,
-				6B3F0D051F4DAF66007FA051 /* WXApiObject.h */,
-			);
-			path = WeChatSDK;
-			sourceTree = "<group>";
-		};
-		6B3F0D0A1F4DAF66007FA051 /* Required */ = {
-			isa = PBXGroup;
-			children = (
-				6B3F0D0B1F4DAF66007FA051 /* ShareSDK.bundle */,
-				6B3F0D0C1F4DAF66007FA051 /* ShareSDKConnector.framework */,
-			);
-			path = Required;
-			sourceTree = "<group>";
-		};
-		6B4AE72B1F2B47C500FA088D /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-				6B3F0CC01F4DAF66007FA051 /* ShareSDK */,
-				6B4AE72C1F2B47C500FA088D /* Required */,
-				6B4AE72F1F2B47C500FA088D /* ShareREC */,
-			);
-			name = SDK;
-			path = ../../../SDK;
-			sourceTree = "<group>";
-		};
-		6B4AE72C1F2B47C500FA088D /* Required */ = {
-			isa = PBXGroup;
-			children = (
-				6B4AE72D1F2B47C500FA088D /* MOBFoundation.framework */,
-				6B4AE72E1F2B47C500FA088D /* MOBFoundationEx.framework */,
-			);
-			path = Required;
-			sourceTree = "<group>";
-		};
-		6B4AE72F1F2B47C500FA088D /* ShareREC */ = {
-			isa = PBXGroup;
-			children = (
-				6B03512D1F32CA1C006B5913 /* ShareRECSocial.framework */,
-				6B4AE7301F2B47C500FA088D /* ShareREC.strings */,
-				6B4AE7321F2B47C500FA088D /* ShareRECCloud.strings */,
-				6B4AE7341F2B47C500FA088D /* ShareRECEdit.strings */,
-				6B4AE7361F2B47C500FA088D /* ShareRECSocial.strings */,
-				6B4AE7381F2B47C500FA088D /* ShareREC.bundle */,
-				6B4AE7391F2B47C500FA088D /* ShareREC.framework */,
-				6B4AE73A1F2B47C500FA088D /* ShareRECCloud.bundle */,
-				6B4AE73B1F2B47C500FA088D /* ShareRECCloud.framework */,
-				6B4AE73C1F2B47C500FA088D /* ShareRECEdit.bundle */,
-				6B4AE73D1F2B47C500FA088D /* ShareRECEdit.framework */,
-				6B4AE7401F2B47C500FA088D /* ShareREC快速集成文档.docx */,
-				6B4AE73E1F2B47C500FA088D /* ShareRECSocial.bundle */,
-			);
-			path = ShareREC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,23 +377,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2D42F222408B5E00C46F1E /* ShareREC.bundle in Resources */,
+				0B2D42EE22408B5E00C46F1E /* ShareRECSocial.strings in Resources */,
+				0B2D42F322408B5E00C46F1E /* ShareRECEdit.bundle in Resources */,
 				41A5071A1A427A77002F28E5 /* Shader.fsh in Resources */,
-				6B4AE7531F2B47C500FA088D /* ShareREC快速集成文档.docx in Resources */,
-				6B4AE7511F2B47C500FA088D /* ShareRECSocial.bundle in Resources */,
-				6B4AE7481F2B47C500FA088D /* ShareRECCloud.strings in Resources */,
-				6B3F0D3C1F4DAF66007FA051 /* ShareSDK.bundle in Resources */,
-				6B4AE74F1F2B47C500FA088D /* ShareRECEdit.bundle in Resources */,
-				6B4AE7491F2B47C500FA088D /* ShareRECEdit.strings in Resources */,
+				0B2D42F822408B5E00C46F1E /* README.txt in Resources */,
+				0B2D42F622408B5E00C46F1E /* ShareRECCloud.bundle in Resources */,
 				41A507211A427A77002F28E5 /* Images.xcassets in Resources */,
-				6B3F0D111F4DAF66007FA051 /* ShareSDKUI.bundle in Resources */,
-				6B4AE7471F2B47C500FA088D /* ShareREC.strings in Resources */,
-				6B4AE74B1F2B47C500FA088D /* ShareREC.bundle in Resources */,
+				0B2D42FC22408B5E00C46F1E /* ShareSDKUI.bundle in Resources */,
 				4128B24D1A49399200BBC81A /* _.mp3 in Resources */,
-				6B4AE74A1F2B47C500FA088D /* ShareRECSocial.strings in Resources */,
-				6B4AE74D1F2B47C500FA088D /* ShareRECCloud.bundle in Resources */,
+				0B2D42F122408B5E00C46F1E /* ShareRECSocial.bundle in Resources */,
 				41A5070C1A427A77002F28E5 /* InfoPlist.strings in Resources */,
+				0B2D42EC22408B5E00C46F1E /* ShareRECCloud.strings in Resources */,
+				0B2D42ED22408B5E00C46F1E /* ShareREC.strings in Resources */,
+				0B2D42FB22408B5E00C46F1E /* ShareSDK.bundle in Resources */,
+				0B2D42EF22408B5E00C46F1E /* ShareRECEdit.strings in Resources */,
 				6B886A751ED29D9E00DB686C /* Launch Screen.storyboard in Resources */,
-				6B3F0D3A1F4DAF66007FA051 /* README.txt in Resources */,
 				41A5071C1A427A77002F28E5 /* Shader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,48 +413,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0B2D42C222408B5E00C46F1E /* ShareRECCloud.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2D42C322408B5E00C46F1E /* zh-Hans */,
+				0B2D42CB22408B5E00C46F1E /* en */,
+			);
+			name = ShareRECCloud.strings;
+			sourceTree = "<group>";
+		};
+		0B2D42C422408B5E00C46F1E /* ShareREC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2D42C522408B5E00C46F1E /* zh-Hans */,
+				0B2D42CC22408B5E00C46F1E /* en */,
+			);
+			name = ShareREC.strings;
+			sourceTree = "<group>";
+		};
+		0B2D42C622408B5E00C46F1E /* ShareRECSocial.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2D42C722408B5E00C46F1E /* zh-Hans */,
+				0B2D42CD22408B5E00C46F1E /* en */,
+			);
+			name = ShareRECSocial.strings;
+			sourceTree = "<group>";
+		};
+		0B2D42C822408B5E00C46F1E /* ShareRECEdit.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2D42C922408B5E00C46F1E /* zh-Hans */,
+				0B2D42CE22408B5E00C46F1E /* en */,
+			);
+			name = ShareRECEdit.strings;
+			sourceTree = "<group>";
+		};
 		41A5070A1A427A77002F28E5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				41A5070B1A427A77002F28E5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6B4AE7301F2B47C500FA088D /* ShareREC.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B4AE7311F2B47C500FA088D /* en */,
-				6B4AE7411F2B47C500FA088D /* zh-Hans */,
-			);
-			name = ShareREC.strings;
-			sourceTree = "<group>";
-		};
-		6B4AE7321F2B47C500FA088D /* ShareRECCloud.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B4AE7331F2B47C500FA088D /* en */,
-				6B4AE7421F2B47C500FA088D /* zh-Hans */,
-			);
-			name = ShareRECCloud.strings;
-			sourceTree = "<group>";
-		};
-		6B4AE7341F2B47C500FA088D /* ShareRECEdit.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B4AE7351F2B47C500FA088D /* en */,
-				6B4AE7431F2B47C500FA088D /* zh-Hans */,
-			);
-			name = ShareRECEdit.strings;
-			sourceTree = "<group>";
-		};
-		6B4AE7361F2B47C500FA088D /* ShareRECSocial.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B4AE7371F2B47C500FA088D /* en */,
-				6B4AE7441F2B47C500FA088D /* zh-Hans */,
-			);
-			name = ShareRECSocial.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -538,22 +540,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Chen GangQiang (785VZN2ZN7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q87QUX3533;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../SDK/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareRECDemo/ShareRECDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ShareRECDemo/ShareRECDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../SDK/ShareSDK/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mob.product.ShareREC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6446d0e8-1810-4014-a482-07995c5013a3";
+				PROVISIONING_PROFILE = "5b1d491f-cbe0-4a05-a7b5-a9472a46c341";
 				PROVISIONING_PROFILE_SPECIFIER = MobProvisioningProfiles;
 				WRAPPER_EXTENSION = app;
 			};
@@ -564,21 +565,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = LW5266U92D;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../SDK/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareRECDemo/ShareRECDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ShareRECDemo/ShareRECDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../SDK/ShareSDK/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mob.product.ShareREC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1c1acaa2-cc82-434e-9cbb-fc85eb83b6ed";
+				PROVISIONING_PROFILE = "5b1d491f-cbe0-4a05-a7b5-a9472a46c341";
 				PROVISIONING_PROFILE_SPECIFIER = ShareREC;
 				WRAPPER_EXTENSION = app;
 			};

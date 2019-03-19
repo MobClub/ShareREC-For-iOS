@@ -1,5 +1,5 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++2458",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CF439B49D885DB80F25AA093ED91FDF30C64B629",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++2458" : {
 
@@ -10,17 +10,24 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++2458" : 0,
-    "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++5359" : 9223372036854775807
+    "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++5359" : 9223372036854775807,
+    "CF439B49D885DB80F25AA093ED91FDF30C64B629" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8BCE2B36-0997-4312-A6D3-4A807AF05447",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++2458" : "ShareREC\/",
-    "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++5359" : "MobProducts\/"
+    "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++5359" : "MobProducts\/",
+    "CF439B49D885DB80F25AA093ED91FDF30C64B629" : "ShareREC-For-iOS\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ShareRECDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sample\/ShareRECDemo\/ShareRECDemo.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MobClub\/ShareREC-For-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CF439B49D885DB80F25AA093ED91FDF30C64B629"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn.code.mob.com",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",

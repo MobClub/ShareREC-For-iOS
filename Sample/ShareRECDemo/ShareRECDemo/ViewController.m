@@ -15,6 +15,8 @@
 #import <ShareREC/SRERecording.h>
 #import <ShareRECSocial/ShareRECSocial+Ext.h>
 
+#import <ShareSDKUI/ShareSDKUI.h>
+
 #define BUTTON_HEIGHT 45
 
 #define BUFFER_OFFSET(i) ((char *)NULL + (i))
@@ -596,6 +598,7 @@ GLfloat gCubeVertexData[216] =
     if (recording) {
         [ShareREC deleteLocalRecording:recording];
     }
+    
 }
 
 @end
